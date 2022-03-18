@@ -1,0 +1,35 @@
+.carousel{
+    margin-left: 10%;
+    margin-bottom: 2%;
+
+    &-control-next{
+    margin-right: 8%;
+    }
+
+    @include mediaQuery (500px){
+        margin-right: 5%;
+    }
+}
+
+.imagenes{
+    width: 90%;
+    max-height:600px;
+    border: solid 1px black;
+
+    @include mediaQuery (500px){
+        height: 300px;
+        width: 100%;
+        }
+}
+
+
+.descripcion{
+    margin-right: 10%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150%;
+    color: white;
+}
+
+.barrita{
+    margin-right: 50%;
+}

@@ -1,0 +1,44 @@
+.nav{
+    height: 15%;
+}
+
+.titulo{
+    margin-left: 46.2%;
+    position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+
+    @include mediaQuery (500px){
+        margin-left: 40%;
+        margin-top: 2%;
+        }
+}
+
+.subtitulos{
+    margin-top: 4%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 55px;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    @extend %alignCenter;
+}
+
+.logo{
+    width: 30%;
+    margin-left: 78%;
+}
+.inicio{
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.items{
+    margin-top: 10%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.primerTitulo{
+        @include mediaQuery (500px){
+            margin-top: 20%;
+            }
+    }

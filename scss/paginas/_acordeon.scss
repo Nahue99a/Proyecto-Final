@@ -1,0 +1,16 @@
+.mapa{
+    @include mediaQuery (500px){
+        width: 100%;
+    }
+}
+
+.sucursal{
+    text-align: center;
+    @include mediaQuery (500px){
+        text-align: center;
+    }
+}
+
+.card{
+    margin: 1%;
+}
